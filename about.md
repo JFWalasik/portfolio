@@ -7,6 +7,7 @@ I write clear, compelling sentences.
 ### I like working with... 
 Kind, collaborative, high-performing people who are smarter than I am and enjoy laughing.
 
+---
 
 [LinkedIn](https://www.linkedin.com/in/john-walasik-264583172/)
 
