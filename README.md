@@ -7,9 +7,9 @@ With this code in the _config.yml file:
 
 url: "https://jfwalasik.github.io"   (##### the base hostname & protocol for your site, e.g. http://example.com)
 
-baseurl: "/writer"   (##### the subpath of your site, e.g. /blog)
+baseurl: "/portfolio"   (##### the subpath of your site, e.g. /blog)
 
-The site lives at https://jfwalasik.github.io/writer
+The site is live at https://jfwalasik.github.io/portfolio
 
 ======================================================
 
