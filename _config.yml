@@ -38,6 +38,53 @@ markdown: kramdown
 #   - vendor/gems/
 #   - vendor/ruby/
 
+
+<!-- 
+collections:
+  AI writing:
+    output: true
+    permalink: /AI writing/:name/
+  writing:
+    output: true
+    permalink: /writing/:name/
+  projects:
+    output: true
+    permalink: /projects/:name/
+  notes:
+    output: true
+    permalink: /notes/:name/
+  recipes:
+    output: true
+    permalink: /recipes/:name/
+  travel:
+    output: true
+    permalink: /travel/:name/
+  music:
+    output: true
+    permalink: /music/:name/
+  books:
+    output: true
+    permalink: /books/:name/
+  art:
+    output: true
+    permalink: /art/:name/
+  code:
+    output: true
+    permalink: /code/:name/
+
+defaults:
+  - scope:
+      type: "AI writing"
+    values:
+      layout: "post"
+  - scope:
+      type: "writing"
+    values:
+      layout: "post" 
+  --> 
+  # ... repeat for other collections
+
+
 plugins:
   - jekyll-paginate
 
