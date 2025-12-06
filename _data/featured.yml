@@ -1,0 +1,22 @@
+# Featured items on the homepage
+# Add 4 or more items here
+
+- title: "Citation Map Generator"
+  description: "Python tool for visualizing academic citation networks"
+  image: /assets/images/featured/citation-map.jpg
+  url: /code/citation-map-generator/
+
+- title: "O-1 Visa Petition Writing Sample"
+  description: "Example of extraordinary ability petition writing"
+  image: /assets/images/featured/immigration.jpg
+  url: /immigration-writing/o1-visa-sample/
+
+- title: "OAuth 2.0 Authentication Flow"
+  description: "Detailed walkthrough of OAuth implementation"
+  image: /assets/images/featured/auth-flow.jpg
+  url: /authentication-flows/oauth-walkthrough/
+
+- title: "Security Training Presentation"
+  description: "Employee security awareness training deck"
+  image: /assets/images/featured/security.jpg
+  url: /security-training/awareness-training/
