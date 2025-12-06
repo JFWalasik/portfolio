@@ -41,5 +41,97 @@ markdown: kramdown
 plugins:
   - jekyll-paginate
 
+collections:
+  ai_writing:
+    output: true
+    title: "AI Writing"
+    permalink: /ai-writing/:name/
+  citation_maps:
+    output: true
+    title: "Citation Maps for O-1, EB-1 Petitions"
+    permalink: /citation-maps/:name/
+  short_writing_samples:
+    output: true
+    title: "Short Writing Samples"
+    permalink: /short-writing-samples/:name/
+  immigration_writing:
+    output: true
+    title: "Immigration Writing"
+    permalink: /immigration-writing/:name/
+  code:
+    output: true
+    title: "Code (Citation Map Generator, Simple Blockchain)"
+    permalink: /code/:name/
+  security_training:
+    output: true
+    title: "Security Training - Google Slides"
+    permalink: /security-training/:name/
+  walkthroughs_sops:
+    output: true
+    title: "Walkthroughs, SOPs, Work Instructions"
+    permalink: /walkthroughs-sops/:name/
+  other_legal_writing:
+    output: true
+    title: "Other Legal Writing (SOW, CLRA)"
+    permalink: /other-legal-writing/:name/
+  authentication_flows:
+    output: true
+    title: "Authentication Flows"
+    permalink: /authentication-flows/:name/
+  infrastructure:
+    output: true
+    title: "Infrastructure - Kickstarting Bare Metal Servers with Verdad"
+    permalink: /infrastructure/:name/
+  powerdms:
+    output: true
+    title: "PowerDMS - Gdocs vs MSWord"
+    permalink: /powerdms/:name/
+
+defaults:
+  - scope:
+      type: "ai_writing"
+    values:
+      layout: "post"
+  - scope:
+      type: "citation_maps"
+    values:
+      layout: "post"
+  - scope:
+      type: "short_writing_samples"
+    values:
+      layout: "post"
+  - scope:
+      type: "immigration_writing"
+    values:
+      layout: "post"
+  - scope:
+      type: "code"
+    values:
+      layout: "post"
+  - scope:
+      type: "security_training"
+    values:
+      layout: "post"
+  - scope:
+      type: "walkthroughs_sops"
+    values:
+      layout: "post"
+  - scope:
+      type: "other_legal_writing"
+    values:
+      layout: "post"
+  - scope:
+      type: "authentication_flows"
+    values:
+      layout: "post"
+  - scope:
+      type: "infrastructure"
+    values:
+      layout: "post"
+  - scope:
+      type: "powerdms"
+    values:
+      layout: "post"
+  
 paginate: 3
 paginate_path: "/page/:num/"
