@@ -1,0 +1,23 @@
+---
+layout: default
+title: Security Training - Google Slides
+---
+
+<header class="post-header">
+  <h1 class="post-title">Security Training - Google Slides</h1>
+</header>
+
+<ul class="post-list">
+  {% for item in site.security_training %}
+  <li>
+    <a href="{{ item.url | relative_url }}">
+      <h2>{{ item.title }}</h2>
+      {% if item.description %}
+      <p>{{ item.description }}</p>
+      {% endif %}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+
+<p><a href="{{ '/' | relative_url }}">&larr; Back to Home</a></p>
