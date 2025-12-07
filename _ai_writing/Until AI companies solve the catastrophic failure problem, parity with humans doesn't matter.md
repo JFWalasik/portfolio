@@ -30,9 +30,9 @@ industry professionals on 38.8% of these tasks. Notably, GPT-5
 outperformed Gemini 2.5 Pro and Grok 4, both with about a 25% success
 rate, but Claude Opus 4.1 did even better, equaling or outperforming the
 human professional 47.6% of the time – near parity, in their estimation.
-
+<br>
 **AI failures remain**
-
+<br>
 Yet, the failures remain notable and extreme. AI
 [hallucinations](https://www.theverge.com/2023/2/14/23599007/microsoft-bing-ai-mistakes-demo)
 [and](https://www.theguardian.com/technology/2023/jun/23/two-us-lawyers-fined-submitting-fake-court-citations-chatgpt)
@@ -55,9 +55,9 @@ Again, this is not the point of the paper, which introduces the new tool
 for evaluating AI model performance, and argues that AI models “are
 beginning to approach parity with industry experts” on a subset of
 tasks.
-
+<br>
 **What level of catastrophic failure is acceptable?**
-
+<br>
 But what industry or profession allows “experts” to catastrophically
 fail nearly 2% of the time? Health care professionals? One or two
 catastrophic failures out of 100 patients would likely end a career.
@@ -72,9 +72,9 @@ in most professions, probably. Even at the milder end – customer service
 day in which they have 50 customer interactions. They would still be
 known as “the guy who yells at people,” and soon, “that guy who used to
 work here who yelled at people.”
-
+<br>
 **A Better Way – Move Fast and Break Nothing**
-
+<br>
 Waymo’s track record indicates that this problem is not unsolvable. As
 Saahil Desai reports in *The Atlantic*, Waymo’s “[Move Fast and Break
 Nothing](https://www.theatlantic.com/technology/2025/10/is-waymo-safe/684432/)”
@@ -94,9 +94,9 @@ accidents](https://www.understandingai.org/p/very-few-of-waymos-most-serious-cra
 – and no fatal accidents – can be blamed on Waymo. Waymo’s robotaxis
 aren’t perfect, Desai notes, but compared with ChatGPT, Waymo has been
 much more successful at avoiding “catastrophic” failures.
-
+<br>
 **What does this mean?**
-
+<br>
 AI companies need to solve the catastrophic failure problem.
 
 1\. Despite OpenAI’s enthusiasm and confidence in GPT-5’s “near-human”
