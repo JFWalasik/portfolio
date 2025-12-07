@@ -1,6 +1,5 @@
 ---
-title: Until AI companies solve the catastrophic failure problem, parity
-with humans doesn’t matter
+title: Until AI companies solve the catastrophic failure problem, parity with humans doesn’t matter
 description: A discussion of "parity" with humans vs. catastrophic AI errors 
 date: 2025-11-01
 ---
