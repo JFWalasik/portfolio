@@ -9,7 +9,7 @@ Kind, collaborative, high-performing people who are smarter than I am and enjoy 
 
 ### Right now I am learning...
 Website setup with Jekyll, and help from Anthropic-Claude Opus 4.5 and
-Pat Dryburgh's [Hitchens theme:](https://www.github.com/patdryburgh/hitchens)
+Pat Dryburgh's [Hitchens theme:](https://www.github.com/patdryburgh/hitchens) and converting content to Markdown with pandoc via zshell.
 
 ---
 
