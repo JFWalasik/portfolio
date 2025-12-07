@@ -1,5 +1,21 @@
 ---
-layout: home
+layout: default
 ---
 
-{{ content }}
+<header class="site-masthead">
+  {% include menu.html %}
+  {% if site.title %}
+    <h2>
+      {{ site.title }}
+    </h2>
+  {% endif %}
+  {% if site.description %}
+    <h3>
+      {{ site.description }}
+    </h3>
+  {% endif %}
+</header>
+
+<main class="home" id="main" role="main" aria-label="Content">
+  {{ content }}
+</main>
