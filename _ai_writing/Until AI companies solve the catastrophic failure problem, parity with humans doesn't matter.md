@@ -1,11 +1,9 @@
 ---
-title: Until AI companies solve the catastrophic failure problem, parity with humans doesn’t matter
+title: Until AI Companies Solve the Catastrophic Failure Problem, Parity
+With Humans Doesn’t Matter
 description: A discussion of "parity" with humans vs. catastrophic AI errors 
 date: 2025-11-01
 ---
-
-**Until AI Companies Solve the "Catastrophic" Failure Problem, "Parity"
-With Humans Doesn’t Matter**
 
 OpenAI just released a
 [widely](https://futurism.com/future-society/openai-work-tasks-chatgpt-can-already-replace)-[reported](https://fortune.com/2025/09/30/ai-models-are-already-as-good-as-experts-at-half-of-tasks-a-new-openai-benchmark-gdpval-suggests/)
