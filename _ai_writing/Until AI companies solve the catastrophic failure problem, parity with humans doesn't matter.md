@@ -31,7 +31,9 @@ outperformed Gemini 2.5 Pro and Grok 4, both with about a 25% success
 rate, but Claude Opus 4.1 did even better, equaling or outperforming the
 human professional 47.6% of the time – near parity, in their estimation.
 <br>
+<br>
 **AI failures remain**
+<br>
 <br>
 Yet, the failures remain notable and extreme. AI
 [hallucinations](https://www.theverge.com/2023/2/14/23599007/microsoft-bing-ai-mistakes-demo)
