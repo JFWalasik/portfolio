@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<style>
+.collection-page {
+  padding: 0 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.collection-page .post-header {
+  text-align: center;
+}
+
+.collection-page .post-title {
+  text-align: center;
+}
+
+.collection-page .back-link {
+  margin-top: 2rem;
+}
+
+.collection-nav {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+</style>
+
+<nav class="collection-nav">
+  {% include menu.html %}
+</nav>
+
+<div class="collection-page">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  {{ content }}
+
+  <p class="back-link"><a href="{{ '/' | relative_url }}">&larr; Back to Home</a></p>
+</div>
