@@ -58,7 +58,9 @@ for evaluating AI model performance, and argues that AI models “are
 beginning to approach parity with industry experts” on a subset of
 tasks.
 <br>
+<br>
 **What level of catastrophic failure is acceptable?**
+<br>
 <br>
 But what industry or profession allows “experts” to catastrophically
 fail nearly 2% of the time? Health care professionals? One or two
@@ -75,7 +77,9 @@ day in which they have 50 customer interactions. They would still be
 known as “the guy who yells at people,” and soon, “that guy who used to
 work here who yelled at people.”
 <br>
+<br>
 **A Better Way – Move Fast and Break Nothing**
+<br>
 <br>
 Waymo’s track record indicates that this problem is not unsolvable. As
 Saahil Desai reports in *The Atlantic*, Waymo’s “[Move Fast and Break
@@ -97,7 +101,9 @@ accidents](https://www.understandingai.org/p/very-few-of-waymos-most-serious-cra
 aren’t perfect, Desai notes, but compared with ChatGPT, Waymo has been
 much more successful at avoiding “catastrophic” failures.
 <br>
+<br>
 **What does this mean?**
+<br>
 <br>
 AI companies need to solve the catastrophic failure problem.
 
