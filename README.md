@@ -5,17 +5,17 @@ title: "Hitchens"
 
 With this code in the _config.yml file:
 
-url: "https://jfwalasik.github.io"   (##### the base hostname & protocol for your site, e.g. http://example.com)
+'url: "https://jfwalasik.github.io"   (##### the base hostname & protocol for your site, e.g. http://example.com)
 
-baseurl: "/portfolio"   (##### the subpath of your site, e.g. /blog)
+baseurl: "/portfolio"   (##### the subpath of your site, e.g. /blog)'
 
 The site is live at https://jfwalasik.github.io/portfolio
 
 ======================================================
 
-An inarguably well-designed [Jekyll](http://jekyllrb.com) theme by [Pat Dryburgh](https://patdryburgh.com).
+Based on [Pat Dryburgh's](https://patdryburgh.com) inarguably well-designed [Jekyll](http://jekyllrb.com) theme. 
 
-![Hitchens Preview](https://raw.githubusercontent.com/patdryburgh/hitchens/master/screenshot.png)
+<!--![Hitchens Preview](https://raw.githubusercontent.com/patdryburgh/hitchens/master/screenshot.png)-->
 
 <!-- Undoubtably one of the great minds of our time, [Christopher Hitchens](https://en.wikipedia.org/wiki/Christopher_Hitchens) challenged his readers to think deeply on topics of politics, religion, war, and science. This Jekyll theme's design is inspired by the trade paperback version his book, [Arguably](https://en.wikipedia.org/wiki/Arguably), and is dedicated to his memory. -->
 
