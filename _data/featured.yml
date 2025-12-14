@@ -6,10 +6,10 @@
   image: /assets/images/featured/Screenshot-O-1.png
   url: citation-maps/index.html
 
-- title: "O-1 Visa Petition Writing Sample"
-  description: "Example of extraordinary ability petition writing"
-  image: /assets/images/featured/immigration.jpg
-  url: /immigration-writing/o1-visa-sample/
+- title: "AI Writing"
+  description: "Anthropic, OpenAI, Google, Grok"
+  image: /assets/images/featured/Image_from_AI_article.png
+  url: /AI Writing/index.html
 
 - title: "OAuth 2.0 Authentication Flow"
   description: "Detailed walkthrough of OAuth implementation"
