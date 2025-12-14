@@ -16,7 +16,7 @@
   image: /assets/images/featured/auth-flow.jpg
   url: /authentication-flows/oauth-walkthrough/
 
-- title: "Security Training Presentation"
-  description: "Employee security awareness training deck"
-  image: /assets/images/featured/security.jpg
-  url: /security-training/awareness-training/
+- title: "Security Training"
+  description: "Security training slide deck and quiz"
+  image: /assets/images/Screenshot-2-slides-sec-trn.png
+  url: _security_training/security-awareness-sample.md
