@@ -5,11 +5,16 @@ layout: default
 <style>
 /* Custom overrides for post pages */
 .post {
-  padding: 1em 2rem !important;        /* less padding inside white area */
+  padding: 1em 2rem !important;
+}
+
+.post > * {
+  max-width: 50rem !important;         /* was 36rem - wider content */
+  padding: 0 0.5em !important;         /* was 0 1em - less side padding */
 }
 
 .post-content {
-  padding: 0 1rem !important;          /* content closer to edges */
+  padding: 0 0.5rem !important;
 }
 
 /* Responsive adjustments for smaller screens */
@@ -17,8 +22,8 @@ layout: default
   .post {
     padding: 1em 1rem !important;
   }
-  .post-content {
-    padding: 0 0.5rem !important;
+  .post > * {
+    padding: 0 0.5em !important;
   }
 }
 </style>
