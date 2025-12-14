@@ -1,23 +1,17 @@
 ---
-layout: default
+layout: collection
 title: PowerDMS - Gdocs vs MSWord
 ---
-
-<header class="post-header">
-  <h1 class="post-title">PowerDMS - Gdocs vs MSWord</h1>
-</header>
 
 <ul class="post-list">
   {% for item in site.powerdms %}
   <li>
     <a href="{{ item.url | relative_url }}">
-      <h2>{{ item.title }}</h2>
+      <h3>{{ item.title }}</h3>
       {% if item.description %}
-      <p>{{ item.description }}</p>
+      <h6>{{ item.description }}</h6>
       {% endif %}
     </a>
   </li>
   {% endfor %}
 </ul>
-
-<p><a href="{{ '/' | relative_url }}">&larr; Back to Home</a></p>
