@@ -8,8 +8,17 @@ date: 2025-11-01
 
 ### For an O-1 (about 500 citations)
 
-![A Citation Map for an O-1 Petition](image.jpg)
+<br>
+<br>
+
+![A Citation Map for an O-1 Petition](assets/images/Screenshot-O-1.png)
+
+<br>
+<br>
 
 ### For an EB-1b (about 200 citations)
 
-![A Citation Map for an EB-1b Petition](image.jpg)
+<br>
+<br>
+
+![A Citation Map for an EB-1b Petition](assets/images/EB-1-citemap.png)
