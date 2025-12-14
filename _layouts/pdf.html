@@ -1,0 +1,76 @@
+---
+layout: default
+---
+
+<style>
+.pdf-page {
+  padding: 0 1rem;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.pdf-page .page-title {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.pdf-page .page-meta {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.pdf-page .pdf-container {
+  margin: 1rem 0;
+}
+
+.pdf-page iframe {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.pdf-page .download-link {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.pdf-page .back-link {
+  margin-top: 2rem;
+}
+
+.pdf-nav {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+</style>
+
+<nav class="pdf-nav">
+  {% include menu.html %}
+</nav>
+
+<div class="pdf-page">
+  <h1 class="page-title">{{ page.title }}</h1>
+  
+  {% if page.date %}
+  <p class="page-meta">
+    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+  </p>
+  {% endif %}
+
+  {% if page.description %}
+  <p class="page-meta">{{ page.description }}</p>
+  {% endif %}
+
+  <div class="pdf-container">
+    {{ content }}
+  </div>
+
+  {% if page.download %}
+  <p class="download-link">
+    <a href="{{ page.download | relative_url }}" target="_blank">Download PDF</a>
+  </p>
+  {% endif %}
+
+  <p class="back-link"><a href="{{ page.back_link | default: '/' | relative_url }}">&larr; Back</a></p>
+</div>
