@@ -4,7 +4,7 @@ description: Maps with locations of researchers citing a person's work
 date: 2025-11-01
 ---
 
-## For EB-1 and O-1 (Outstanding Researcher and Extraordinary Ability) petitions
+### For EB-1 and O-1 (Outstanding Researcher and Extraordinary Ability) petitions
 
 ### For an O-1 (about 500 citations)
 
