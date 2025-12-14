@@ -1,9 +1,9 @@
 # Featured items on the homepage
 # Add 4 or more items here
 
-- title: "Citation Map Generator"
-  description: "Python tool for visualizing academic citation networks"
-  image: /assets/images/featured/citation-map.jpg
+- title: "Citation Maps"
+  description: "Maps with locations of researchers citing a person's work, for EB-1 and O-1 petitions"
+  image: /assets/images/featured/Screenshot-O-1.png
   url: /code/citation-map-generator/
 
 - title: "O-1 Visa Petition Writing Sample"
