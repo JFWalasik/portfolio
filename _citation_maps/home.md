@@ -11,7 +11,7 @@ date: 2025-11-01
 <br>
 <br>
 
-![A Citation Map for an O-1 Petition](assets/images/Screenshot-O-1.png)
+![A Citation Map for an O-1 Petition](/assets/images/Screenshot-O-1.png)
 
 <br>
 <br>
@@ -21,4 +21,4 @@ date: 2025-11-01
 <br>
 <br>
 
-![A Citation Map for an EB-1b Petition](assets/images/EB-1-citemap.png)
+![A Citation Map for an EB-1b Petition](/assets/images/EB-1-citemap.png)
