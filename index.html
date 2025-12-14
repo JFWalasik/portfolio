@@ -1,33 +1,25 @@
 ---
-layout: home
+layout: portfolio
 title: Home
 ---
 
 <style>
-/* Featured section - reduced top margin */
 .featured-section {
-  margin: 1rem 0 2rem 0;
+  margin: 1.5rem 0;
 }
 
 .featured-section > h2 {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   text-align: center;
 }
 
-/* 3 columns for featured items */
 .featured-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
   list-style: none;
   padding: 0;
   margin: 0;
-}
-
-@media (max-width: 900px) {
-  .featured-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 @media (max-width: 600px) {
@@ -52,100 +44,37 @@ title: Home
 
 .featured-image {
   width: 100%;
-  height: 160px;
+  height: 180px;
   object-fit: cover;
   border-radius: 4px;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
   background-color: #e0e0e0;
 }
 
 .featured-item h3 {
   margin: 0 0 0.25rem 0;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .featured-item p {
   margin: 0;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   color: #666;
 }
 
-/* Collections section */
 .collections-section {
-  margin: 2rem 0;
+  margin: 3rem 0;
 }
 
 .collections-section > h2 {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   text-align: center;
-}
-
-/* Two column layout for collections */
-.collections-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 0.75rem 2rem;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-@media (max-width: 600px) {
-  .collections-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-.collections-grid li {
-  margin: 0;
-}
-
-.collections-grid a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.collections-grid a:hover {
-  opacity: 0.7;
-}
-
-.collections-grid h3 {
-  margin: 0;
-  font-size: 1.1rem;
-}
-
-.collections-grid h3:hover {
-  text-decoration: underline;
-}
-
-.collections-grid p {
-  margin: 0.25rem 0 0 0;
-  font-size: 0.85rem;
-  color: #666;
 }
 
 .section-divider {
   border: none;
   border-top: 1px solid #ddd;
-  margin: 2rem 0;
-}
-
-/* Footer info section */
-.site-info {
-  margin-top: 3rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid #ddd;
-  text-align: center;
-  font-size: 0.85rem;
-  color: #666;
-}
-
-.site-info a {
-  color: #666;
-}
-
-.site-info a:hover {
-  color: #333;
+  margin: 2.5rem 0;
 }
 </style>
 
@@ -172,21 +101,12 @@ title: Home
 
 <section class="collections-section">
   <h2>All Collections</h2>
-  <ul class="collections-grid">
+  <ul class="post-list">
     {% if site.ai_writing.size > 0 %}
     <li>
       <a href="{{ '/ai-writing/' | relative_url }}">
-        <h3>AI Writing</h3>
+        <h2>AI Writing</h2>
         <p>{{ site.ai_writing.size }} item{% if site.ai_writing.size != 1 %}s{% endif %}</p>
-      </a>
-    </li>
-    {% endif %}
-
-    {% if site.i_believe.size > 0 %}
-    <li>
-      <a href="{{ '/i-believe/' | relative_url }}">
-        <h3>I Believe…</h3>
-        <p>{{ site.i_believe.size }} item{% if site.i_believe.size != 1 %}s{% endif %}</p>
       </a>
     </li>
     {% endif %}
@@ -194,7 +114,7 @@ title: Home
     {% if site.citation_maps.size > 0 %}
     <li>
       <a href="{{ '/citation-maps/' | relative_url }}">
-        <h3>Citation Maps for O-1, EB-1 Petitions</h3>
+        <h2>Citation Maps for O-1, EB-1 Petitions</h2>
         <p>{{ site.citation_maps.size }} item{% if site.citation_maps.size != 1 %}s{% endif %}</p>
       </a>
     </li>
@@ -203,7 +123,7 @@ title: Home
     {% if site.short_writing_samples.size > 0 %}
     <li>
       <a href="{{ '/short-writing-samples/' | relative_url }}">
-        <h3>Short Writing Samples</h3>
+        <h2>Short Writing Samples</h2>
         <p>{{ site.short_writing_samples.size }} item{% if site.short_writing_samples.size != 1 %}s{% endif %}</p>
       </a>
     </li>
@@ -212,7 +132,7 @@ title: Home
     {% if site.immigration_writing.size > 0 %}
     <li>
       <a href="{{ '/immigration-writing/' | relative_url }}">
-        <h3>Immigration Writing</h3>
+        <h2>Immigration Writing</h2>
         <p>{{ site.immigration_writing.size }} item{% if site.immigration_writing.size != 1 %}s{% endif %}</p>
       </a>
     </li>
@@ -221,7 +141,7 @@ title: Home
     {% if site.code.size > 0 %}
     <li>
       <a href="{{ '/code/' | relative_url }}">
-        <h3>Code</h3>
+        <h2>Code (Citation Map Generator, Simple Blockchain)</h2>
         <p>{{ site.code.size }} item{% if site.code.size != 1 %}s{% endif %}</p>
       </a>
     </li>
@@ -230,7 +150,7 @@ title: Home
     {% if site.security_training.size > 0 %}
     <li>
       <a href="{{ '/security-training/' | relative_url }}">
-        <h3>Security Training</h3>
+        <h2>Security Training</h2>
         <p>{{ site.security_training.size }} item{% if site.security_training.size != 1 %}s{% endif %}</p>
       </a>
     </li>
@@ -239,7 +159,7 @@ title: Home
     {% if site.walkthroughs_sops.size > 0 %}
     <li>
       <a href="{{ '/walkthroughs-sops/' | relative_url }}">
-        <h3>Walkthroughs, SOPs, Work Instructions</h3>
+        <h2>Walkthroughs, SOPs, Work Instructions</h2>
         <p>{{ site.walkthroughs_sops.size }} item{% if site.walkthroughs_sops.size != 1 %}s{% endif %}</p>
       </a>
     </li>
@@ -248,7 +168,7 @@ title: Home
     {% if site.other_legal_writing.size > 0 %}
     <li>
       <a href="{{ '/other-legal-writing/' | relative_url }}">
-        <h3>Other Legal Writing</h3>
+        <h2>Other Legal Writing (SOW, CLRA)</h2>
         <p>{{ site.other_legal_writing.size }} item{% if site.other_legal_writing.size != 1 %}s{% endif %}</p>
       </a>
     </li>
@@ -257,7 +177,7 @@ title: Home
     {% if site.authentication_flows.size > 0 %}
     <li>
       <a href="{{ '/authentication-flows/' | relative_url }}">
-        <h3>Authentication Flows</h3>
+        <h2>Authentication Flows</h2>
         <p>{{ site.authentication_flows.size }} item{% if site.authentication_flows.size != 1 %}s{% endif %}</p>
       </a>
     </li>
@@ -266,7 +186,7 @@ title: Home
     {% if site.infrastructure.size > 0 %}
     <li>
       <a href="{{ '/infrastructure/' | relative_url }}">
-        <h3>Infrastructure</h3>
+        <h2>Infrastructure - Kickstarting Bare Metal Servers with Verdad</h2>
         <p>{{ site.infrastructure.size }} item{% if site.infrastructure.size != 1 %}s{% endif %}</p>
       </a>
     </li>
@@ -275,7 +195,7 @@ title: Home
     {% if site.powerdms.size > 0 %}
     <li>
       <a href="{{ '/powerdms/' | relative_url }}">
-        <h3>PowerDMS</h3>
+        <h2>PowerDMS - Gdocs vs MSWord</h2>
         <p>{{ site.powerdms.size }} item{% if site.powerdms.size != 1 %}s{% endif %}</p>
       </a>
     </li>
@@ -288,17 +208,13 @@ title: Home
 
 <section class="collections-section">
   <h2>Blog</h2>
-  <ul class="collections-grid">
+  <ul class="post-list">
     <li>
       <a href="{{ '/blog/' | relative_url }}">
-        <h3>Blog Posts</h3>
+        <h2>Blog Posts</h2>
         <p>{{ site.posts.size }} post{% if site.posts.size != 1 %}s{% endif %}</p>
       </a>
     </li>
   </ul>
 </section>
 {% endif %}
-
-<div class="site-info">
-  <p>Built with the <a href="https://github.com/patdryburgh/hitchens" target="_blank">Hitchens theme</a> for Jekyll · Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> · <a href="https://github.com/YOUR_USERNAME/YOUR_REPO" target="_blank">Source code</a></p>
-</div>
