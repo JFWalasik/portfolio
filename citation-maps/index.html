@@ -1,0 +1,17 @@
+---
+layout: collection
+title: Citation Maps for O-1, EB-1 Petitions
+---
+
+<ul class="post-list">
+  {% for item in site.citation_maps %}
+  <li>
+    <a href="{{ item.url | relative_url }}">
+      <h3>{{ item.title }}</h3>
+      {% if item.description %}
+      <h6>{{ item.description }}</h6>
+      {% endif %}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
