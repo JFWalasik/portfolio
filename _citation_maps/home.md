@@ -4,7 +4,7 @@ description: Maps with locations of researchers citing a person's work
 date: 2025-11-01
 ---
 
-### For EB-1 and O-1 (Outstanding Researcher and Extraordinary Ability) petitions
+### For EB-1 and O-1 (Outstanding Researcher and Extraordinary Ability) Petitions
 
 ### For an O-1 (about 500 citations)
 
@@ -18,3 +18,7 @@ date: 2025-11-01
 
 
 ![A Citation Map for an EB-1b Petition](/portfolio/assets/images/EB-1-citemap.png)
+
+
+Liu, Chen. "CitationMap: A Python Tool to Identify and Visualize Your Google Scholar Citations Around the World." Authorea Preprints (2024).
+[Code](https://github.com/ChenLiu-1996/CitationMap)
