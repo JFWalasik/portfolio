@@ -19,6 +19,8 @@ date: 2025-11-01
 
 ![A Citation Map for an EB-1b Petition](/portfolio/assets/images/EB-1-citemap.png)
 
+Made with Python, Folium, pandas, GeoPy
 
-Liu, Chen. "CitationMap: A Python Tool to Identify and Visualize Your Google Scholar Citations Around the World." Authorea Preprints (2024).
-[Code](https://github.com/ChenLiu-1996/CitationMap)
+Source: Liu, Chen. "CitationMap: A Python Tool to Identify and Visualize Your Google Scholar Citations Around the World." Authorea Preprints (2024).
+
+[Code in GitHub](https://github.com/ChenLiu-1996/CitationMap)
