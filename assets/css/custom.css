@@ -1,0 +1,16 @@
+/* Custom overrides for Hitchens theme */
+
+/* Reduce margins (yellow space) and padding (space inside white area) */
+.post {
+  margin: 1em auto;           /* was 2em auto - reduces yellow margins */
+  max-width: 70rem;           /* was 60rem - wider content area */
+  padding: 1em 1.5rem;        /* was 2em 0 - less top/bottom, adds side padding */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .post {
+    margin: 0.5em auto;
+    padding: 1em 1rem;
+  }
+}
