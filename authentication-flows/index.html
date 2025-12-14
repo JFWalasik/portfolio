@@ -1,0 +1,17 @@
+---
+layout: collection
+title: Authentication Flows
+---
+
+<ul class="post-list">
+  {% for item in site.authentication_flows %}
+  <li>
+    <a href="{{ item.url | relative_url }}">
+      <h3>{{ item.title }}</h3>
+      {% if item.description %}
+      <h6>{{ item.description }}</h6>
+      {% endif %}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
