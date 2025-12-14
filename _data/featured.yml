@@ -9,7 +9,7 @@
 - title: "AI Writing"
   description: "Anthropic, OpenAI, Google, Grok"
   image: /assets/images/featured/Image_from_AI_article.png
-  url: /AI Writing/index.html
+  url: /ai-writing/index.html
 
 - title: "OAuth 2.0 Authentication Flow"
   description: "Detailed walkthrough of OAuth implementation"
