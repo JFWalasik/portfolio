@@ -1,14 +1,19 @@
 ---
 layout: pdf
 title: Security Awareness Training
-description: Employee security training presentation
+description: Employee security training presentation and quiz
 date: 2024-07-15
 back_link: /security-training/
 ---
 
-# Security Training and 10-Question Quiz
+# Security Training and Quiz
 
-Presentation in Powerpoint; Quiz in Google Forms (pdfs only here)
+Presentation in Powerpoint; 10-Question Quiz in Google Forms (pdfs only here)
+
+<br>
+<br>
+<br>
+<br>
 
 <iframe src="https://drive.google.com/file/d/1CxZRIYFRyY_Eamu-a_Xtdvwu1iELYLbz/preview" width="100%" height="700px"></iframe>
 
