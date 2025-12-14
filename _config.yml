@@ -64,7 +64,7 @@ collections:
     permalink: /code/:name/
   security_training:
     output: true
-    title: "Security Training - Google Slides"
+    title: "Security Training"
     permalink: /security-training/:name/
   walkthroughs_sops:
     output: true
