@@ -9,12 +9,20 @@ layout: default
 }
 
 .post > * {
-  max-width: 50rem !important;         /* was 36rem - wider content */
-  padding: 0 0.5em !important;         /* was 0 1em - less side padding */
+  max-width: 50rem !important;
+  padding: 0 0.5em !important;
 }
 
 .post-content {
   padding: 0 0.5rem !important;
+}
+
+.post-title {
+  margin-bottom: 0.5rem !important;
+}
+
+.post-meta {
+  margin-bottom: 1.5rem !important;
 }
 
 /* Responsive adjustments for smaller screens */
@@ -42,15 +50,15 @@ layout: default
     </h1>
   {% endif %}
 
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
-  </div>
-
   <div class="post-meta">
     {% if page.author %}
       <div itemprop="author">{{ page.author }}</div>
     {% endif %}
     <time class="post-date dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
+  </div>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
   </div>
 
   {% if site.disqus.shortname %}
