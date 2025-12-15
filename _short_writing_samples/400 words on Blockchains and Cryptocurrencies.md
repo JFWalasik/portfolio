@@ -1,4 +1,3 @@
-
 ---
 title: 400 Words on Blockchains, Cryptography, and Cryptocurrencies
 description: What they are and how they work
