@@ -1,5 +1,5 @@
 ---
-title: 100 words on mRNA
+title: 100 Words on mRNA
 description: mRNA -- what it is and how it works
 date: 2021-02-22
 ---
