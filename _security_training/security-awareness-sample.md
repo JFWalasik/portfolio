@@ -8,7 +8,7 @@ back_link: /security-training/
 
 ## Security Training and Quiz
 
-Presentation in Powerpoint; 10-Question Quiz in Google Forms (pdfs only here). Click on either the slide deck or the quiz to scroll through it. Or to view as a slide deck, click on the pop-out icon at the top right of the sub-window to pop it out into a separate tab.
+Presentation in Powerpoint; 10-Question Quiz in Google Forms (pdfs only here). Click on either the slide deck or the quiz to scroll through it. Or to view as a slide deck, click on the pop-out icon at the top right of the sub-window to open it in a separate tab.
 
 <br>
 <br>
