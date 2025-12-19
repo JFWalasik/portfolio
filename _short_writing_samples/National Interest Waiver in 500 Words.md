@@ -19,6 +19,7 @@ USCIS follows a 3-step process when evaluating NIW petitions (more on each of th
 2.	The person must be well positioned to advance the proposed endeavor; and
 3.	On balance, it would be beneficial to the United States to waive the job offer and thus the permanent labor certification requirements
 <br>
+<!-- end of list -->
 <br>
 1. Substantial Merit and National Importance
 
@@ -43,6 +44,7 @@ This is not a separate criterion, so much as a summary evaluation; if a proposed
 <br>
 <br>
 As described, the most important part of the NIW petition is the proposed endeavor – showing that it has benefit, impact, and that the person is likely (“well positioned”) to achieve it. 
+
 
 
 
