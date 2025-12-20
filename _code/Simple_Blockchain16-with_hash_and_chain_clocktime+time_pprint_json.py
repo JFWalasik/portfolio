@@ -1,6 +1,6 @@
 ---
 title: Simple Blockchain
-description: A Python blockchain and function to print blocks in json
+description: A Python blockchain with sha-256 hash and function to print blocks in json
 date: 2020-11-01
 ---
 
@@ -122,4 +122,5 @@ for block in testChain2.chain:
     # pprint(block.__dict__)
     # json + indent leaves it in the original order
     print(' ')
+
 
