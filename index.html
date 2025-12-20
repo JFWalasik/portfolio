@@ -105,7 +105,7 @@ title: Home
 
 {% if site.data.featured.size > 0 %}
 <section class="featured-section">
-  <h2>Featured Work</h2>
+  <h3>Featured Work</h3>
   <ul class="featured-grid">
     {% for item in site.data.featured %}
     <li class="featured-item">
@@ -130,7 +130,7 @@ title: Home
     {% if site.ai_writing.size > 0 %}
     <li>
       <a href="{{ '/ai-writing/' | relative_url }}">
-        <h3>AI Writing</h3>
+        <h4>AI Writing</h4>
         <p>{{ site.ai_writing.size }} item{% if site.ai_writing.size != 1 %}s{% endif %}</p>
       </a>
     </li>
@@ -139,7 +139,7 @@ title: Home
     {% if site.citation_maps.size > 0 %}
     <li>
       <a href="{{ '/citation-maps/' | relative_url }}">
-        <h3>Citation Maps for O-1, EB-1 Petitions</h3>
+        <h4>Citation Maps for O-1, EB-1 Petitions</h4>
         <p>{{ site.citation_maps.size }} item{% if site.citation_maps.size != 1 %}s{% endif %}</p>
       </a>
     </li>
@@ -148,7 +148,7 @@ title: Home
     {% if site.short_writing_samples.size > 0 %}
     <li>
       <a href="{{ '/short-writing-samples/' | relative_url }}">
-        <h3>Short Writing Samples</h3>
+        <h4>Short Writing Samples</h4>
         <p>{{ site.short_writing_samples.size }} item{% if site.short_writing_samples.size != 1 %}s{% endif %}</p>
       </a>
     </li>
@@ -157,7 +157,7 @@ title: Home
     {% if site.immigration_writing.size > 0 %}
     <li>
       <a href="{{ '/immigration-writing/' | relative_url }}">
-        <h3>Immigration Writing</h3>
+        <h4>Immigration Writing</h4>
         <p>{{ site.immigration_writing.size }} item{% if site.immigration_writing.size != 1 %}s{% endif %}</p>
       </a>
     </li>
@@ -166,7 +166,7 @@ title: Home
     {% if site.code.size > 0 %}
     <li>
       <a href="{{ '/code/' | relative_url }}">
-        <h3>Code (Citation Map Generator, Simple Blockchain)</h3>
+        <h4>Code (Citation Map Generator, Simple Blockchain)</h4>
         <p>{{ site.code.size }} item{% if site.code.size != 1 %}s{% endif %}</p>
       </a>
     </li>
@@ -175,7 +175,7 @@ title: Home
     {% if site.security_training.size > 0 %}
     <li>
       <a href="{{ '/security-training/' | relative_url }}">
-        <h3>Security Training</h3>
+        <h4>Security Training</h4>
         <p>{{ site.security_training.size }} item{% if site.security_training.size != 1 %}s{% endif %}</p>
       </a>
     </li>
@@ -184,7 +184,7 @@ title: Home
     {% if site.walkthroughs_sops.size > 0 %}
     <li>
       <a href="{{ '/walkthroughs-sops/' | relative_url }}">
-        <h3>Walkthroughs, SOPs, Work Instructions</h3>
+        <h4>Walkthroughs, SOPs, Work Instructions</h4>
         <p>{{ site.walkthroughs_sops.size }} item{% if site.walkthroughs_sops.size != 1 %}s{% endif %}</p>
       </a>
     </li>
@@ -193,7 +193,7 @@ title: Home
     {% if site.other_legal_writing.size > 0 %}
     <li>
       <a href="{{ '/other-legal-writing/' | relative_url }}">
-        <h3>Other Legal Writing (SOW, CLRA)</h3>
+        <h4>Other Legal Writing (SOW, CLRA)</h4>
         <p>{{ site.other_legal_writing.size }} item{% if site.other_legal_writing.size != 1 %}s{% endif %}</p>
       </a>
     </li>
@@ -202,25 +202,18 @@ title: Home
     {% if site.authentication_flows.size > 0 %}
     <li>
       <a href="{{ '/authentication-flows/' | relative_url }}">
-        <h3>Authentication Flows</h3>
+        <h4>Authentication Flows</h4>
         <p>{{ site.authentication_flows.size }} item{% if site.authentication_flows.size != 1 %}s{% endif %}</p>
       </a>
     </li>
     {% endif %}
 
-    {% if site.infrastructure.size > 0 %}
-    <li>
-      <a href="{{ '/infrastructure/' | relative_url }}">
-        <h3>Infrastructure - Kickstarting Bare Metal Servers with Verdad</h3>
-        <p>{{ site.infrastructure.size }} item{% if site.infrastructure.size != 1 %}s{% endif %}</p>
-      </a>
-    </li>
-    {% endif %}
+
 
     {% if site.powerdms.size > 0 %}
     <li>
       <a href="{{ '/powerdms/' | relative_url }}">
-        <h3>PowerDMS - Gdocs vs MSWord</h3>
+        <h4>PowerDMS - Gdocs vs MSWord</h4>
         <p>{{ site.powerdms.size }} item{% if site.powerdms.size != 1 %}s{% endif %}</p>
       </a>
     </li>
