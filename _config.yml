@@ -86,6 +86,14 @@ collections:
     output: true
     title: "PowerDMS - Gdocs vs MSWord"
     permalink: /powerdms/:name/
+  i_believe:
+    output: true
+    title: "I Believe"
+    permalink: /i-believe/:name/
+  weather_modification:
+    output: true
+    title: "Weather Modification"
+    permalink: /weather-modification/:name/
 
 defaults:
   - scope:
@@ -132,6 +140,14 @@ defaults:
       type: "powerdms"
     values:
       layout: "post"
-  
+  - scope:
+      type: "i_believe"
+    values:
+      layout: "post"
+  - scope:
+      type: "weather_modification"
+    values:
+      layout: "post"
+      
 paginate: 3
 paginate_path: "/page/:num/"
