@@ -16,9 +16,9 @@
   image: /assets/images/featured/AI_article_grab3.png
   url: /ai-writing/index.html
 
-- title: "OAuth 2.0 Authentication Flow"
-  description: "Detailed walkthrough of OAuth implementation"
-  image: /assets/images/featured/auth-flow.jpg
-  url: /authentication-flows/oauth-walkthrough/
+- title: "How to Change the Weather"
+  description: "Storm Mitigation (2024)"
+  image: assets/images/featured/How2Change.png
+  url: /weather-modification/index.html
 
 
