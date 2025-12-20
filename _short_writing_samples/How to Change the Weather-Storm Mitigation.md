@@ -17,7 +17,7 @@ In 2008, Dr Rosenfeld specifically described the nonmonotonic (either enhancing 
 <br>
 <br>
 
-![Image showing the effect of sub-micrometer aerosols on the convective energy of storm systems](portfolio/assets/images/Rosenfeld,2008.png)
+![Image showing the effect of sub-micrometer aerosols on the convective energy of storm systems](/portfolio/assets/images/Rosenfeld,2008.png)
 
 <br>
 <br>
@@ -39,5 +39,6 @@ Recent work offers new promise in mitigating the most severe weather systems. We
 While some countries, such as the United Arab Emirates have become active in cloud seeding to increase rain, there have not yet been any public and prominent reports of successfully mitigating storms as of 2024.
 <br>
 <br>
+
 
 
