@@ -1,27 +1,36 @@
 ---
-title: Printout of 6 blocks and hashes
-description: Printed output of a simple blockchain
+title: Printout of 6 hashes and content of blocks
+description: Printed output of a simple blockchain - sha-256 hashes and content of blocks in json
 date: 2020-10-02
 ---
 
 runfile('C:/Users/jfw/Documents/20-Python/Blockchain - simple/Simple_Blockchain16-with_hash_and_chain_clocktime+time_pprint_json.py', wdir='C:/Users/jfw/Documents/20-Python/Blockchain - simple')
-
-
+<br>
+<br>
 
 72fd8c62e6dcf3c507f3f04c694317032b0d56731a4098d3561bc2eee728fb51
- 
+<br>
+<br> 
 294c535347f6c866e5e2f36fc4a5fd6abe49063a4462e68cbd4019f6fb9fcef4
- 
+<br>
+<br> 
 27b076159bc5abbe7a726cfab3711e3730fd713bae47b5ad1c465a92e7f3d701
- 
+<br>
+<br> 
 6eda7036fe59a2dda6ee71c74f81835015563b7aedaba8c7ead7ee6357a1daf6
- 
+<br>
+<br> 
 c5cffb79561586b1f4404778be9c5839ea5aa5a3cc3348ca4bb8d0b8cbae7bf9
- 
+<br>
+<br> 
 24ce2e145406e713628580f949099e83b9481f101dc403ec9e4ea77cff30324f
- 
+<br>
+<br> 
 fea15c125dbbfe6d08e0a20fc73297c59274c36a4889156d3d57a50ca9e86573
- 
+<br>
+<br>
+
+```json
 {
    "index": 0,
    "timestamp": "Fri Oct  2 00:17:07 2020",
@@ -78,3 +87,4 @@ fea15c125dbbfe6d08e0a20fc73297c59274c36a4889156d3d57a50ca9e86573
    "previousHash": "24ce2e145406e713628580f949099e83b9481f101dc403ec9e4ea77cff30324f"
 
 }
+```
