@@ -1,5 +1,5 @@
 ---
-title: Printout of 6 hashes and content of blocks
+title: Printout of 6 Hashes and Content of Blocks
 description: Printed output of a simple blockchain - sha-256 hashes and content of blocks in json
 date: 2020-10-02
 ---
@@ -87,4 +87,5 @@ fea15c125dbbfe6d08e0a20fc73297c59274c36a4889156d3d57a50ca9e86573
    "previousHash": "24ce2e145406e713628580f949099e83b9481f101dc403ec9e4ea77cff30324f"
 
 }
+
 ```
