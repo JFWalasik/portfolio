@@ -1,6 +1,6 @@
 ---
 title: How to Change the Weather
-description: Storm Mitigation (2024): a non-political overview
+description: "Storm Mitigation (2024): a non-political overview"
 date: 2024-12-17
 ---
 
@@ -33,3 +33,4 @@ This insight hasn’t yet led to success in mitigating severe storms. While Dr. 
 Recent work offers new promise in mitigating the most severe weather systems. Weather modeling has become precise (neighborhood-level, instead of regional) and fast (with minute-by-minute updates). Equally important, the models can estimate what the storm will look like in the near future, enabling action on the storm as it will be, rather than on what it looked like when planning the intervention.
 
 While some countries, such as the United Arab Emirates have become active in cloud seeding to increase rain, there have not yet been any public and prominent reports of successfully mitigating storms as of 2024.
+
