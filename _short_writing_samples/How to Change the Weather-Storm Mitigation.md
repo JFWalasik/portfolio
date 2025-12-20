@@ -15,7 +15,7 @@ What was missing was a quantitative description of this activity – how weather
 <br>
 In 2008, Dr Rosenfeld specifically described the nonmonotonic (either enhancing or diminishing) effects of these aerosols in his groundbreaking paper in *Science*. His team showed that sub-micrometer (less than a thousandth of a millimeter) aerosols increase the release of convective energy (and precipitation) at a concentration of up to about 1000 particles per cubic centimeter of air (the peak of the blue line in the image below). At concentrations above 1000 units per cubic centimeter, these aerosols decrease the release of convective energy, reducing the storm’s power and precipitation. See image below:
 
-<img src="/portfolio/assets/images/Rosenfeld,2008.png" alt="Image showing the effect of sub-micrometer aerosols on the convective energy of storm systems" width="600">
+<img src="/portfolio/assets/images/Rosenfeld,2008.png" alt="Image showing the effect of sub-micrometer aerosols on the convective energy of storm systems" width="350">
 
 Above: from “Flood or Drought: How do Aerosols Affect Precipitation” by Daniel Rosenfeld et al. in *Science*, 2008, showing the effect of sub-micrometer aerosols on the released convective energy of storm systems.
 <br>
@@ -35,6 +35,7 @@ Recent work offers new promise in mitigating the most severe weather systems. We
 While some countries, such as the United Arab Emirates have become active in cloud seeding to increase rain, there have not yet been any public and prominent reports of successfully mitigating storms as of 2024.
 <br>
 <br>
+
 
 
 
