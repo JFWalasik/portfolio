@@ -1,9 +1,10 @@
 ---
 title: Simple Blockchain
 description: A Python blockchain with sha-256 hash and function to print blocks in json
-date: 2020-11-01
+date: 2020-09-19
 ---
 
+```python
 # -*- coding: utf-8 -*-
 """
 Created on Sat Sep 19 10:37:00 2020
@@ -122,5 +123,6 @@ for block in testChain2.chain:
     # pprint(block.__dict__)
     # json + indent leaves it in the original order
     print(' ')
+```
 
 
