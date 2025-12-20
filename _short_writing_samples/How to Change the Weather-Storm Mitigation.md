@@ -4,7 +4,7 @@ description: "Storm Mitigation (2024): a non-political overview"
 date: 2024-12-17
 ---
 
-Current storm modification efforts build upon the pioneering work of Daniel Rosenfeld and his colleagues, published in Science in 2008 (“Flood or Drought: How do Aerosols Affect Precipitation.”)
+Current storm modification efforts build upon the pioneering work of Daniel Rosenfeld and his colleagues, published in *Science* in 2008 (“Flood or Drought: How do Aerosols Affect Precipitation.”)
 <br>
 <br>
 For hundreds of years, people have observed that airborne particles, especially dust and smoke, can affect the formation of clouds and storms over oceans. Dust from Africa has been known to impact Atlantic storms, and sailors have observed that smoke from boilers affects local clouds.
@@ -13,15 +13,13 @@ For hundreds of years, people have observed that airborne particles, especially 
 What was missing was a quantitative description of this activity – how weather systems are affected by airborne particles of a specific size and concentration. Further, observations also showed that airborne particles (“aerosols”) can lead to seemingly contradicting results -- both strengthening and weaking of storms in different circumstances.  
 <br>
 <br>
-In 2008, Dr Rosenfeld specifically described the nonmonotonic (either enhancing or diminishing) effects of these aerosols in his groundbreaking paper in Science. His team showed that sub-micrometer (less than a thousandth of a millimeter) aerosols increase the release of convective energy (and precipitation) at a concentration of up to about 1000 particles per cubic centimeter of air (the peak of the blue line in the image below). At concentrations above 1000 units per cubic centimeter, these aerosols decrease the release of convective energy, reducing the storm’s power and precipitation. See image below:
-<br>
-<br>
+In 2008, Dr Rosenfeld specifically described the nonmonotonic (either enhancing or diminishing) effects of these aerosols in his groundbreaking paper in *Science*. His team showed that sub-micrometer (less than a thousandth of a millimeter) aerosols increase the release of convective energy (and precipitation) at a concentration of up to about 1000 particles per cubic centimeter of air (the peak of the blue line in the image below). At concentrations above 1000 units per cubic centimeter, these aerosols decrease the release of convective energy, reducing the storm’s power and precipitation. See image below:
+
 
 ![Image showing the effect of sub-micrometer aerosols on the convective energy of storm systems](/portfolio/assets/images/Rosenfeld,2008.png)
 
-<br>
-<br>
-Above: from “Flood or Drought: How do Aerosols Affect Precipitation” by Daniel Rosenfeld et al. in Science, 2008, showing the effect of sub-micrometer aerosols on the released convective energy of storm systems.
+
+Above: from “Flood or Drought: How do Aerosols Affect Precipitation” by Daniel Rosenfeld et al. in *Science*, 2008, showing the effect of sub-micrometer aerosols on the released convective energy of storm systems.
 <br>
 <br>
 Dr. Rosenfeld’s work became the basis for attempts at weather intervention with varying success, but not enough success to convince governments to implement wider efforts. Included among these attempts was the U.S. Department of Homeland Security’s (DHS) Hurricane and Aerosol Microphysics Program (HAMP) led by Dr. William R. Cotton and Dr. Rosenfeld. Hindered by the U.S. government’s inefficiencies (Dr. Cotton reports: “…owing to huge delays in NOAA processing the project, and that NOAA skimmed off about 20% of the overall budget to support NOAA management of the program”) and a political change of administration that caused a reversal of priorities at DHS, HAMP was discontinued before the teams led by Drs. Cotton and Rosenfeld could analyze the data they had gathered.
@@ -39,6 +37,7 @@ Recent work offers new promise in mitigating the most severe weather systems. We
 While some countries, such as the United Arab Emirates have become active in cloud seeding to increase rain, there have not yet been any public and prominent reports of successfully mitigating storms as of 2024.
 <br>
 <br>
+
 
 
 
