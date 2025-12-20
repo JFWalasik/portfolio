@@ -1,4 +1,8 @@
-
+---
+title: Printout of 6 blocks and hashes
+description: Printed output of a simple blockchain
+date: 2020-10-02
+---
 
 runfile('C:/Users/jfw/Documents/20-Python/Blockchain - simple/Simple_Blockchain16-with_hash_and_chain_clocktime+time_pprint_json.py', wdir='C:/Users/jfw/Documents/20-Python/Blockchain - simple')
 
@@ -72,4 +76,5 @@ fea15c125dbbfe6d08e0a20fc73297c59274c36a4889156d3d57a50ca9e86573
    "data": "really important data6",
    "hash": "fea15c125dbbfe6d08e0a20fc73297c59274c36a4889156d3d57a50ca9e86573",
    "previousHash": "24ce2e145406e713628580f949099e83b9481f101dc403ec9e4ea77cff30324f"
+
 }
