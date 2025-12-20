@@ -1,6 +1,7 @@
 ---
 title: Sample Infrastructure Document
 description: A brief description of this infrastructure item
+published: false
 date: 2024-01-15
 ---
 
