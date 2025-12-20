@@ -18,9 +18,7 @@ USCIS follows a 3-step process when evaluating NIW petitions (more on each of th
 1.	The proposed endeavor must have both substantial merit and national importance;
 2.	The person must be well positioned to advance the proposed endeavor; and
 3.	On balance, it would be beneficial to the United States to waive the job offer and thus the permanent labor certification requirements
-<br>
-<!-- end of list -->
-<br>
+
 > **Substantial Merit and National Importance**
 
 Here, merit means value or goodness. Curing cancer or another prominent disease; building a business that contributes to the economy and adds jobs; engineering semiconductors – these are things that have value to the country. As a contrary example, a software developer proposing to develop a gambling app for kids would not have “merit.”
@@ -44,6 +42,7 @@ This is not a separate criterion, so much as a summary evaluation; if a proposed
 <br>
 <br>
 As described, the most important part of the NIW petition is the proposed endeavor – showing that it has benefit, impact, and that the person is likely (“well positioned”) to achieve it. 
+
 
 
 
