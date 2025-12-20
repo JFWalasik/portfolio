@@ -1,6 +1,7 @@
 ---
 title: Sample Legal Document
 description: A brief description of this legal writing sample
+published: false
 date: 2024-01-15
 ---
 
