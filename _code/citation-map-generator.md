@@ -1,6 +1,7 @@
 ---
 title: Citation Map Generator
 description: Python tool for generating citation maps from academic papers
+published: false
 date: 2024-02-10
 ---
 
