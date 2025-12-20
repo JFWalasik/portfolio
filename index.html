@@ -208,8 +208,33 @@ title: Home
     </li>
     {% endif %}
 
+    {% if site.infrastructure.size > 0 %}
+    <li>
+      <a href="{{ '/infrastructure/' | relative_url }}">
+        <h3>Infrastructure - Kickstarting Bare Metal Servers with Verdad</h3>
+        <p>{{ site.infrastructure.size }} item{% if site.infrastructure.size != 1 %}s{% endif %}</p>
+      </a>
+    </li>
+    {% endif %}
 
+   {% if site.i_believe.size > 0 %}
+    <li>
+      <a href="{{ '/i-believe/' | relative_url }}">
+        <h3>I Believe</h3>
+        <p>{{ site.i_believe.size }} item{% if site.i_believe.size != 1 %}s{% endif %}</p>
+      </a>
+    </li>
+    {% endif %}
 
+    {% if site.weather_modification.size > 0 %}
+    <li>
+      <a href="{{ '/weather-modification/' | relative_url }}">
+        <h3>Weather Modification</h3>
+        <p>{{ site.weather_modification.size }} item{% if site.weather_modification.size != 1 %}s{% endif %}</p>
+      </a>
+    </li>
+    {% endif %}
+    
     {% if site.powerdms.size > 0 %}
     <li>
       <a href="{{ '/powerdms/' | relative_url }}">
