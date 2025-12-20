@@ -30,3 +30,18 @@
   description: "Engineered mRNA does not enter the cell nucleus or interact with DNA"
   image: assets/images/featured/mRNA.png 
   url: /short-writing-samples/index.html
+
+- title: "National Interest Waiver in 500 Words"
+  description: "What USCIS Looks For"
+  image: assets/images/featured/NIWin500.png
+  url: /short-writing-samples/index.html
+
+- title: "Interactive Guide to Premillenial Dispensationalism"
+  description: "An interactive html project with AI (Claude)"
+  image: assets/images/featured/PreMillDisp.png 
+  url: /i-believe/index.html
+
+- title: "Simple Blockchain in Python"
+  description: "Blockchain with sha-256 Hash and Function to Print Blocks in json"
+  image: assets/images/featured/Blockchain.png
+  url: /code/index.html
