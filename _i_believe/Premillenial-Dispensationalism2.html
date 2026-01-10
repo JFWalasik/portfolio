@@ -12,6 +12,12 @@ date: 2025-05-29
         box-sizing: border-box;
     }
 
+   .page-wrapper {
+    background: linear-gradient(135deg, #90D5FF 0%, #B8E6FF 100%);
+    min-height: 100vh;
+    padding: 20px 0;
+    }
+   
     body {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         background: linear-gradient(135deg, #90D5FF 0%, #B8E6FF 100%);
@@ -301,282 +307,284 @@ date: 2025-05-29
     }
 </style>
 
-<div class="container">
-    <div class="header">
-        <h1>📜 Premillennial Dispensationalism Timeline</h1>
-        <p>An Interactive Guide to End Times Theology</p>
-    </div>
-
-    <div class="navigation">
-        <button class="nav-btn" onclick="showAllPeriods()">Show All Periods</button>
-        <button class="nav-btn" onclick="showOTDispensations()">Old Testament</button>
-        <button class="nav-btn" onclick="focusOnTribulation()">Tribulation Period</button>
-        <button class="nav-btn" onclick="resetView()">Reset View</button>
-    </div>
-
-    <div class="timeline" id="timeline">
-        <div class="timeline-item" data-period="innocence">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content" onclick="openDetailedView('innocence')">
-                <div class="period-title">
-                    <span class="period-icon">🌳</span>
-                    Innocence (Eden)
-                    <span class="period-duration">Creation to Fall</span>
-                </div>
-                <div class="period-description">
-                    The dispensation of innocence where man was created sinless and given dominion over creation. Adam and Eve enjoyed perfect fellowship with God until the Fall.
-                </div>
-                <div class="scripture-refs">
-                    <h4>Key Scriptures:</h4>
-                    <div class="ref-list">Genesis 1:26-28, Genesis 2:15-17, Genesis 3:1-24</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="timeline-item" data-period="conscience">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content" onclick="openDetailedView('conscience')">
-                <div class="period-title">
-                    <span class="period-icon">💭</span>
-                    Conscience
-                    <span class="period-duration">Fall to Flood</span>
-                </div>
-                <div class="period-description">
-                    After the Fall, humanity was governed by conscience - knowing good and evil but choosing evil. This period ended with God's judgment through the worldwide flood.
-                </div>
-                <div class="scripture-refs">
-                    <h4>Key Scriptures:</h4>
-                    <div class="ref-list">Genesis 3:7, Genesis 6:5-7, Romans 2:14-15</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="timeline-item" data-period="government">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content" onclick="openDetailedView('government')">
-                <div class="period-title">
-                    <span class="period-icon">🏛️</span>
-                    Human Government
-                    <span class="period-duration">Flood to Babel</span>
-                </div>
-                <div class="period-description">
-                    God established human government with the authority to execute judgment for murder. This dispensation ended when humanity united in rebellion at the Tower of Babel.
-                </div>
-                <div class="scripture-refs">
-                    <h4>Key Scriptures:</h4>
-                    <div class="ref-list">Genesis 9:1-6, Genesis 11:1-9, Romans 13:1-4</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="timeline-item" data-period="promise">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content" onclick="openDetailedView('promise')">
-                <div class="period-title">
-                    <span class="period-icon">⭐</span>
-                    Promise (Patriarchal)
-                    <span class="period-duration">Abraham to Moses</span>
-                </div>
-                <div class="period-description">
-                    God called Abraham and made unconditional promises to him and his descendants. This period covers the patriarchs and ends with Israel in Egyptian bondage.
-                </div>
-                <div class="scripture-refs">
-                    <h4>Key Scriptures:</h4>
-                    <div class="ref-list">Genesis 12:1-3, Genesis 15:18, Galatians 3:17-18</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="timeline-item" data-period="law">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content" onclick="openDetailedView('law')">
-                <div class="period-title">
-                    <span class="period-icon">📜</span>
-                    Law (Mosaic)
-                    <span class="period-duration">Moses to Christ</span>
-                </div>
-                <div class="period-description">
-                    God gave the Law to Israel through Moses at Mount Sinai. This dispensation tested whether man could live righteously under divine law, ending with Israel's rejection of their Messiah.
-                </div>
-                <div class="scripture-refs">
-                    <h4>Key Scriptures:</h4>
-                    <div class="ref-list">Exodus 19:3-8, Romans 3:19-20, Galatians 3:24-25</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="timeline-item" data-period="church-age">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content" onclick="openDetailedView('church-age')">
-                <div class="period-title">
-                    <span class="period-icon">⛪</span>
-                    Church Age (Grace)
-                    <span class="period-duration">33 AD - Present</span>
-                </div>
-                <div class="period-description">
-                    The current dispensation where the Church preaches the Gospel to all nations. This period began at Pentecost and continues until the Rapture.
-                </div>
-                <div class="scripture-refs">
-                    <h4>Key Scriptures:</h4>
-                    <div class="ref-list">Acts 2:1-4, Matthew 28:19-20, 1 Thessalonians 4:16-17</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="timeline-item" data-period="rapture">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content" onclick="openDetailedView('rapture')">
-                <div class="period-title">
-                    <span class="period-icon">☁️</span>
-                    The Rapture
-                    <span class="period-duration">Imminent Event</span>
-                </div>
-                <div class="period-description">
-                    The catching away of the Church before the Tribulation. Believers are taken up to meet Christ in the air, removing the restraining influence of the Holy Spirit through the Church.
-                </div>
-                <div class="scripture-refs">
-                    <h4>Key Scriptures:</h4>
-                    <div class="ref-list">1 Thessalonians 4:16-17, 1 Corinthians 15:51-52, 2 Thessalonians 2:7</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="timeline-item" data-period="early-tribulation">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content" onclick="openDetailedView('early-tribulation')">
-                <div class="period-title">
-                    <span class="period-icon">🕊️</span>
-                    Early Tribulation (First Half)
-                    <span class="period-duration">3.5 Years</span>
-                </div>
-                <div class="period-description">
-                    The beginning of Daniel's 70th week. A time of relative peace as the Antichrist rises to power and confirms a covenant with Israel. The Two Witnesses begin their ministry.
-                </div>
-                <div class="scripture-refs">
-                    <h4>Key Scriptures:</h4>
-                    <div class="ref-list">Daniel 9:27, Revelation 11:3-6, 2 Thessalonians 2:3-4</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="timeline-item" data-period="mid-tribulation">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content" onclick="openDetailedView('mid-tribulation')">
-                <div class="period-title">
-                    <span class="period-icon">⚡</span>
-                    Mid-Tribulation Events
-                    <span class="period-duration">Pivotal Moment</span>
-                </div>
-                <div class="period-description">
-                    The Antichrist breaks his covenant with Israel, enters the rebuilt temple, and declares himself God. This marks the beginning of the "Great Tribulation" - the most intense period of judgment.
-                </div>
-                <div class="scripture-refs">
-                    <h4>Key Scriptures:</h4>
-                    <div class="ref-list">Daniel 9:27, Matthew 24:15, 2 Thessalonians 2:4, Revelation 13:5</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="timeline-item" data-period="great-tribulation">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content" onclick="openDetailedView('great-tribulation')">
-                <div class="period-title">
-                    <span class="period-icon">⚡</span>
-                    Great Tribulation (Second Half)
-                    <span class="period-duration">3.5 Years</span>
-                </div>
-                <div class="period-description">
-                    The most intense period of God's wrath upon earth. Bowl judgments are poured out, the Mark of the Beast is implemented, and persecution of believers reaches its peak.
-                </div>
-                <div class="scripture-refs">
-                    <h4>Key Scriptures:</h4>
-                    <div class="ref-list">Matthew 24:21, Revelation 13:16-17, Revelation 16:1-21</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="timeline-item" data-period="armageddon">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content" onclick="openDetailedView('armageddon')">
-                <div class="period-title">
-                    <span class="period-icon">⚔️</span>
-                    Battle of Armageddon
-                    <span class="period-duration">End of Tribulation</span>
-                </div>
-                <div class="period-description">
-                    The final battle where Christ returns with His saints to defeat the Antichrist and his armies. This culminates in the Second Coming and the establishment of Christ's earthly kingdom.
-                </div>
-                <div class="scripture-refs">
-                    <h4>Key Scriptures:</h4>
-                    <div class="ref-list">Revelation 16:16, Revelation 19:11-21, Zechariah 14:1-4</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="timeline-item" data-period="second-coming">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content" onclick="openDetailedView('second-coming')">
-                <div class="period-title">
-                    <span class="period-icon">👑</span>
-                    Second Coming of Christ
-                    <span class="period-duration">Glorious Return</span>
-                </div>
-                <div class="period-description">
-                    Christ returns to earth with power and great glory, accompanied by the raptured saints. He defeats His enemies and establishes His millennial kingdom on earth.
-                </div>
-                <div class="scripture-refs">
-                    <h4>Key Scriptures:</h4>
-                    <div class="ref-list">Matthew 24:30, Revelation 19:11-16, Jude 1:14</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="timeline-item" data-period="millennium">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content" onclick="openDetailedView('millennium')">
-                <div class="period-title">
-                    <span class="period-icon">🌍</span>
-                    Millennial Kingdom
-                    <span class="period-duration">1,000 Years</span>
-                </div>
-                <div class="period-description">
-                    Christ's literal reign on earth from Jerusalem. A time of peace, righteousness, and restoration where creation is renewed and nations learn war no more.
-                </div>
-                <div class="scripture-refs">
-                    <h4>Key Scriptures:</h4>
-                    <div class="ref-list">Revelation 20:1-6, Isaiah 2:2-4, Isaiah 11:6-9</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="timeline-item" data-period="final-judgment">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content" onclick="openDetailedView('final-judgment')">
-                <div class="period-title">
-                    <span class="period-icon">⚖️</span>
-                    Final Judgment & Eternal State
-                    <span class="period-duration">Forever</span>
-                </div>
-                <div class="period-description">
-                    After the millennium, the final rebellion is crushed, the Great White Throne Judgment occurs, and the eternal state begins with new heavens and new earth.
-                </div>
-                <div class="scripture-refs">
-                    <h4>Key Scriptures:</h4>
-                    <div class="ref-list">Revelation 20:7-15, Revelation 21:1-4, 2 Peter 3:13</div>
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="page-wrapper">
+   <div class="container">
+       <div class="header">
+           <h1>📜 Premillennial Dispensationalism Timeline</h1>
+           <p>An Interactive Guide to End Times Theology</p>
+       </div>
+   
+       <div class="navigation">
+           <button class="nav-btn" onclick="showAllPeriods()">Show All Periods</button>
+           <button class="nav-btn" onclick="showOTDispensations()">Old Testament</button>
+           <button class="nav-btn" onclick="focusOnTribulation()">Tribulation Period</button>
+           <button class="nav-btn" onclick="resetView()">Reset View</button>
+       </div>
+   
+       <div class="timeline" id="timeline">
+           <div class="timeline-item" data-period="innocence">
+               <div class="timeline-dot"></div>
+               <div class="timeline-content" onclick="openDetailedView('innocence')">
+                   <div class="period-title">
+                       <span class="period-icon">🌳</span>
+                       Innocence (Eden)
+                       <span class="period-duration">Creation to Fall</span>
+                   </div>
+                   <div class="period-description">
+                       The dispensation of innocence where man was created sinless and given dominion over creation. Adam and Eve enjoyed perfect fellowship with God until the Fall.
+                   </div>
+                   <div class="scripture-refs">
+                       <h4>Key Scriptures:</h4>
+                       <div class="ref-list">Genesis 1:26-28, Genesis 2:15-17, Genesis 3:1-24</div>
+                   </div>
+               </div>
+           </div>
+   
+           <div class="timeline-item" data-period="conscience">
+               <div class="timeline-dot"></div>
+               <div class="timeline-content" onclick="openDetailedView('conscience')">
+                   <div class="period-title">
+                       <span class="period-icon">💭</span>
+                       Conscience
+                       <span class="period-duration">Fall to Flood</span>
+                   </div>
+                   <div class="period-description">
+                       After the Fall, humanity was governed by conscience - knowing good and evil but choosing evil. This period ended with God's judgment through the worldwide flood.
+                   </div>
+                   <div class="scripture-refs">
+                       <h4>Key Scriptures:</h4>
+                       <div class="ref-list">Genesis 3:7, Genesis 6:5-7, Romans 2:14-15</div>
+                   </div>
+               </div>
+           </div>
+   
+           <div class="timeline-item" data-period="government">
+               <div class="timeline-dot"></div>
+               <div class="timeline-content" onclick="openDetailedView('government')">
+                   <div class="period-title">
+                       <span class="period-icon">🏛️</span>
+                       Human Government
+                       <span class="period-duration">Flood to Babel</span>
+                   </div>
+                   <div class="period-description">
+                       God established human government with the authority to execute judgment for murder. This dispensation ended when humanity united in rebellion at the Tower of Babel.
+                   </div>
+                   <div class="scripture-refs">
+                       <h4>Key Scriptures:</h4>
+                       <div class="ref-list">Genesis 9:1-6, Genesis 11:1-9, Romans 13:1-4</div>
+                   </div>
+               </div>
+           </div>
+   
+           <div class="timeline-item" data-period="promise">
+               <div class="timeline-dot"></div>
+               <div class="timeline-content" onclick="openDetailedView('promise')">
+                   <div class="period-title">
+                       <span class="period-icon">⭐</span>
+                       Promise (Patriarchal)
+                       <span class="period-duration">Abraham to Moses</span>
+                   </div>
+                   <div class="period-description">
+                       God called Abraham and made unconditional promises to him and his descendants. This period covers the patriarchs and ends with Israel in Egyptian bondage.
+                   </div>
+                   <div class="scripture-refs">
+                       <h4>Key Scriptures:</h4>
+                       <div class="ref-list">Genesis 12:1-3, Genesis 15:18, Galatians 3:17-18</div>
+                   </div>
+               </div>
+           </div>
+   
+           <div class="timeline-item" data-period="law">
+               <div class="timeline-dot"></div>
+               <div class="timeline-content" onclick="openDetailedView('law')">
+                   <div class="period-title">
+                       <span class="period-icon">📜</span>
+                       Law (Mosaic)
+                       <span class="period-duration">Moses to Christ</span>
+                   </div>
+                   <div class="period-description">
+                       God gave the Law to Israel through Moses at Mount Sinai. This dispensation tested whether man could live righteously under divine law, ending with Israel's rejection of their Messiah.
+                   </div>
+                   <div class="scripture-refs">
+                       <h4>Key Scriptures:</h4>
+                       <div class="ref-list">Exodus 19:3-8, Romans 3:19-20, Galatians 3:24-25</div>
+                   </div>
+               </div>
+           </div>
+   
+           <div class="timeline-item" data-period="church-age">
+               <div class="timeline-dot"></div>
+               <div class="timeline-content" onclick="openDetailedView('church-age')">
+                   <div class="period-title">
+                       <span class="period-icon">⛪</span>
+                       Church Age (Grace)
+                       <span class="period-duration">33 AD - Present</span>
+                   </div>
+                   <div class="period-description">
+                       The current dispensation where the Church preaches the Gospel to all nations. This period began at Pentecost and continues until the Rapture.
+                   </div>
+                   <div class="scripture-refs">
+                       <h4>Key Scriptures:</h4>
+                       <div class="ref-list">Acts 2:1-4, Matthew 28:19-20, 1 Thessalonians 4:16-17</div>
+                   </div>
+               </div>
+           </div>
+   
+           <div class="timeline-item" data-period="rapture">
+               <div class="timeline-dot"></div>
+               <div class="timeline-content" onclick="openDetailedView('rapture')">
+                   <div class="period-title">
+                       <span class="period-icon">☁️</span>
+                       The Rapture
+                       <span class="period-duration">Imminent Event</span>
+                   </div>
+                   <div class="period-description">
+                       The catching away of the Church before the Tribulation. Believers are taken up to meet Christ in the air, removing the restraining influence of the Holy Spirit through the Church.
+                   </div>
+                   <div class="scripture-refs">
+                       <h4>Key Scriptures:</h4>
+                       <div class="ref-list">1 Thessalonians 4:16-17, 1 Corinthians 15:51-52, 2 Thessalonians 2:7</div>
+                   </div>
+               </div>
+           </div>
+   
+           <div class="timeline-item" data-period="early-tribulation">
+               <div class="timeline-dot"></div>
+               <div class="timeline-content" onclick="openDetailedView('early-tribulation')">
+                   <div class="period-title">
+                       <span class="period-icon">🕊️</span>
+                       Early Tribulation (First Half)
+                       <span class="period-duration">3.5 Years</span>
+                   </div>
+                   <div class="period-description">
+                       The beginning of Daniel's 70th week. A time of relative peace as the Antichrist rises to power and confirms a covenant with Israel. The Two Witnesses begin their ministry.
+                   </div>
+                   <div class="scripture-refs">
+                       <h4>Key Scriptures:</h4>
+                       <div class="ref-list">Daniel 9:27, Revelation 11:3-6, 2 Thessalonians 2:3-4</div>
+                   </div>
+               </div>
+           </div>
+   
+           <div class="timeline-item" data-period="mid-tribulation">
+               <div class="timeline-dot"></div>
+               <div class="timeline-content" onclick="openDetailedView('mid-tribulation')">
+                   <div class="period-title">
+                       <span class="period-icon">⚡</span>
+                       Mid-Tribulation Events
+                       <span class="period-duration">Pivotal Moment</span>
+                   </div>
+                   <div class="period-description">
+                       The Antichrist breaks his covenant with Israel, enters the rebuilt temple, and declares himself God. This marks the beginning of the "Great Tribulation" - the most intense period of judgment.
+                   </div>
+                   <div class="scripture-refs">
+                       <h4>Key Scriptures:</h4>
+                       <div class="ref-list">Daniel 9:27, Matthew 24:15, 2 Thessalonians 2:4, Revelation 13:5</div>
+                   </div>
+               </div>
+           </div>
+   
+           <div class="timeline-item" data-period="great-tribulation">
+               <div class="timeline-dot"></div>
+               <div class="timeline-content" onclick="openDetailedView('great-tribulation')">
+                   <div class="period-title">
+                       <span class="period-icon">⚡</span>
+                       Great Tribulation (Second Half)
+                       <span class="period-duration">3.5 Years</span>
+                   </div>
+                   <div class="period-description">
+                       The most intense period of God's wrath upon earth. Bowl judgments are poured out, the Mark of the Beast is implemented, and persecution of believers reaches its peak.
+                   </div>
+                   <div class="scripture-refs">
+                       <h4>Key Scriptures:</h4>
+                       <div class="ref-list">Matthew 24:21, Revelation 13:16-17, Revelation 16:1-21</div>
+                   </div>
+               </div>
+           </div>
+   
+           <div class="timeline-item" data-period="armageddon">
+               <div class="timeline-dot"></div>
+               <div class="timeline-content" onclick="openDetailedView('armageddon')">
+                   <div class="period-title">
+                       <span class="period-icon">⚔️</span>
+                       Battle of Armageddon
+                       <span class="period-duration">End of Tribulation</span>
+                   </div>
+                   <div class="period-description">
+                       The final battle where Christ returns with His saints to defeat the Antichrist and his armies. This culminates in the Second Coming and the establishment of Christ's earthly kingdom.
+                   </div>
+                   <div class="scripture-refs">
+                       <h4>Key Scriptures:</h4>
+                       <div class="ref-list">Revelation 16:16, Revelation 19:11-21, Zechariah 14:1-4</div>
+                   </div>
+               </div>
+           </div>
+   
+           <div class="timeline-item" data-period="second-coming">
+               <div class="timeline-dot"></div>
+               <div class="timeline-content" onclick="openDetailedView('second-coming')">
+                   <div class="period-title">
+                       <span class="period-icon">👑</span>
+                       Second Coming of Christ
+                       <span class="period-duration">Glorious Return</span>
+                   </div>
+                   <div class="period-description">
+                       Christ returns to earth with power and great glory, accompanied by the raptured saints. He defeats His enemies and establishes His millennial kingdom on earth.
+                   </div>
+                   <div class="scripture-refs">
+                       <h4>Key Scriptures:</h4>
+                       <div class="ref-list">Matthew 24:30, Revelation 19:11-16, Jude 1:14</div>
+                   </div>
+               </div>
+           </div>
+   
+           <div class="timeline-item" data-period="millennium">
+               <div class="timeline-dot"></div>
+               <div class="timeline-content" onclick="openDetailedView('millennium')">
+                   <div class="period-title">
+                       <span class="period-icon">🌍</span>
+                       Millennial Kingdom
+                       <span class="period-duration">1,000 Years</span>
+                   </div>
+                   <div class="period-description">
+                       Christ's literal reign on earth from Jerusalem. A time of peace, righteousness, and restoration where creation is renewed and nations learn war no more.
+                   </div>
+                   <div class="scripture-refs">
+                       <h4>Key Scriptures:</h4>
+                       <div class="ref-list">Revelation 20:1-6, Isaiah 2:2-4, Isaiah 11:6-9</div>
+                   </div>
+               </div>
+           </div>
+   
+           <div class="timeline-item" data-period="final-judgment">
+               <div class="timeline-dot"></div>
+               <div class="timeline-content" onclick="openDetailedView('final-judgment')">
+                   <div class="period-title">
+                       <span class="period-icon">⚖️</span>
+                       Final Judgment & Eternal State
+                       <span class="period-duration">Forever</span>
+                   </div>
+                   <div class="period-description">
+                       After the millennium, the final rebellion is crushed, the Great White Throne Judgment occurs, and the eternal state begins with new heavens and new earth.
+                   </div>
+                   <div class="scripture-refs">
+                       <h4>Key Scriptures:</h4>
+                       <div class="ref-list">Revelation 20:7-15, Revelation 21:1-4, 2 Peter 3:13</div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+   
+   <div class="overlay" id="overlay" onclick="closeDetailedView()"></div>
+   <div class="detailed-view" id="detailedView">
+       <button class="close-btn" onclick="closeDetailedView()">×</button>
+       <div class="expanded-content" id="expandedContent">
+           <!-- Content will be populated by JavaScript -->
+       </div>
+   </div>
 </div>
-
-<div class="overlay" id="overlay" onclick="closeDetailedView()"></div>
-<div class="detailed-view" id="detailedView">
-    <button class="close-btn" onclick="closeDetailedView()">×</button>
-    <div class="expanded-content" id="expandedContent">
-        <!-- Content will be populated by JavaScript -->
-    </div>
-</div>
-
+   
 <script>
     const detailedContent = {
         'innocence': {
