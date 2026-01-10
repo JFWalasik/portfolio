@@ -6,11 +6,14 @@ date: 2025-12-30
 
 [CitationMapGenerator in GitHub](https://github.com/JFWalasik/CitationMapGenerator)
 <br>
+<br>
 Forked from Chen Liu's [repo](https://github.com/ChenLiu-1996/CitationMap)
 <br>
-Added a function to print a csv file with a list of universities/companies where citing authors work. To include with EB-1 and O-1 petitions.
+<br>
+Added a function to print a csv file with a list of universities/companies where citing authors work to include with EB-1 and O-1 petitions.
 <br>
 Coding help from Claude Opus 4.5
+<br>
 <br>
 Credit: Liu, Chen. "CitationMap: A Python Tool to Identify and Visualize Your Google Scholar Citations Around the World." Authorea Preprints (2024).
 
