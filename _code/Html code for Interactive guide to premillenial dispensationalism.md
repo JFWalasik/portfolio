@@ -1,5 +1,5 @@
 ---
-title: Html code for Interactive guide to premillennial dispensationalism
+title: HTML code for Interactive Guide to Premillennial Dispensationalism
 description: Download the file (see Readme) and open in a browser. Code by Claude 
 date: 2025-05-29
 ---
@@ -8,7 +8,7 @@ date: 2025-05-29
 <br>
 <br>
 
-Click on the link above and then download the file (see Readme) and open in a browser. 
+Click on the link above and then download the file (see README) and open in a browser. 
 <br>
 <br>
 
