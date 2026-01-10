@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<style>
+/* Remove all theme width constraints */
+.fullwidth-page,
+.fullwidth-page > *,
+.fullwidth-page .container {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Reset theme body styles for this page */
+body {
+  background: none !important;
+}
+</style>
+
+<div class="fullwidth-page">
+  {{ content }}
+</div>
