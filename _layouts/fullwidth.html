@@ -17,8 +17,21 @@ layout: default
 body {
   background: none !important;
 }
+
+.fullwidth-nav {
+  text-align: center;
+  padding: 1rem;
+}  
 </style>
+
+<nav class="fullwidth-nav">
+  {% include menu.html %}
+</nav>
 
 <div class="fullwidth-page">
   {{ content }}
 </div>
+
+<nav class="fullwidth-nav">
+  {% include menu.html %}
+</nav>
