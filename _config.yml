@@ -149,7 +149,7 @@ defaults:
     values:
       layout: "post"
       
-google_analytics: G-5V25JC8DHG
+site.google_analytics: G-5V25JC8DHG
 
 paginate: 3
 paginate_path: "/page/:num/"
