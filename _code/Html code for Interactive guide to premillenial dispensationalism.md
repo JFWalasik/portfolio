@@ -9,6 +9,7 @@ date: 2025-05-29
 <br>
 
 Click on the link above and then download the file (see Readme) and open in a browser. 
-
+<br>
+<br>
 
 Created with Claude Opus. An updated version of this guide, modified to work with the Jekyll theme, is in the "I Believe" folder/collection of this portfolio.
