@@ -1,4 +1,3 @@
-
 ---
 title: What if Jiankui He Was Trying to Engineer CRISPR Super-babies
 description: Even if he wasn't, someone else is probably doing it now
