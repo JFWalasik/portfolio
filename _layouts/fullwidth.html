@@ -27,6 +27,12 @@ body {
   {% include menu.html %}
 </nav>
 
+{% if page.collection %}
+<p class="back-link"><a href="{{ '/' | relative_url }}{{ page.collection | replace: '_', '-' }}/">&larr; Back</a></p>
+{% else %}
+<p class="back-link"><a href="{{ '/' | relative_url }}">&larr; Back to Home</a></p>
+{% endif %}
+
 <div class="fullwidth-page">
   {{ content }}
 </div>
