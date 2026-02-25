@@ -145,7 +145,16 @@ title: Home
       </a>
     </li>
     {% endif %}
-
+    
+    {% if site.h1b_analysis.size > 0 %}
+    <li>
+      <a href="{{ '/h1b-analysis/' | relative_url }}">
+        <h3>Analysis: H-1B Selection Probability Estimates by Wage Level and Degree</h3>
+        <p>{{ site.h1b_analysis.size }} item{% if site.h1b_analysis.size != 1 %}s{% endif %}</p>
+      </a>
+    </li>
+    {% endif %}
+    
     {% if site.short_writing_samples.size > 0 %}
     <li>
       <a href="{{ '/short-writing-samples/' | relative_url }}">
