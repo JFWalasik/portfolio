@@ -94,7 +94,11 @@ collections:
     output: true
     title: "Weather Modification"
     permalink: /weather-modification/:name/
-
+  h1b_analysis:
+    output: true
+    title: "Analysis: H-1B Selection Probability Estimates by Wage Level and Degree"
+    permalink: /h1b-analysis/:name/
+    
 defaults:
   - scope:
       type: "ai_writing"
@@ -146,6 +150,10 @@ defaults:
       layout: "post"
   - scope:
       type: "weather_modification"
+    values:
+      layout: "post"
+  - scope:
+      type: "h1b_analysis"
     values:
       layout: "post"
       
