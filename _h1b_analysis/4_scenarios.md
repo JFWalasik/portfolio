@@ -10,7 +10,7 @@ From a high estimate of 370,000 unique registrants to a low of 220,000, the char
 
 <br>
 
-![Chart showing higher probability of selection based on wage level, and to a lesser extent, degree level](/portfolio/assets/images/Charts_H-1B_analysis/h1b_probability_scenario_a.png)
+![Chart showing higher probability of selection based on wage level, and to a lesser extent, degree level](/portfolio/assets/images/Charts_H-1B_analysis/h1b_probability_range_chart_v4.png)
 
 <br>
 
