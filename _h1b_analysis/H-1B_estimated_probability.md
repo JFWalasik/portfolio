@@ -1,7 +1,7 @@
 ---
 title: H-1B-estimated probability of selection in lottery by wage level and degree
 description: Analysis and estimate of selection in the H-1B lottery
-date: 2026-03-07
+date: 2026-03-04
 ---
 
 ![Chart showing higher probability of selection based on wage level, and to a lesser extent, degree level](/portfolio/assets/images/Charts_H-1B_analysis/h1b_probability_scenario_a.png)
