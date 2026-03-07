@@ -15,3 +15,22 @@ But these numbers aggregate all registrants by wage level, regardless of their d
 How much higher? Using USCIS’ data, advanced degree holders likely have about a 1.5X chance of being selected, or about a 50% greater chance compared with regular degree holders. Wage level, as intended, has a much greater overall impact on probability of selection.
 
 Based on USCIS’ estimate of 370,000 registrants, and using their estimates of the distribution between regular and advanced degrees and the four wage levels, probabilities of selection can be estimated for each wage level and degree pool. 
+
+<br>
+
+### 370,000 Registrants 
+
+<br>
+
+|Wage Level |	Regular Cap	| Advanced Degree|
+|---|---|---|
+|Level I	| 14.48%	| 23.51% |
+|Level II	| 26.86%	| 41.50% |
+|Level III |	37.44%	| 55.25% |
+|Level IV	| 46.50%	| 65.78% |
+
+<br>
+
+
+
+
