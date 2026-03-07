@@ -41,6 +41,9 @@ markdown: kramdown
 plugins:
   - jekyll-paginate
 
+exclude:
+  - docs/
+  
 collections:
   ai_writing:
     output: true
