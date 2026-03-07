@@ -8,7 +8,7 @@ date: 2026-03-04
 
 <br>
 
-A few months ago, USCIS published the analysis that informed their decision to implement the weighted selection process for the H-1B cap lottery. Based on this data, they estimate the probability of selection in the lottery by wage level (roughly 15%, 30%, 46%, and 61%).
+A few months ago, USCIS published the analysis that informed their decision to implement the [weighted selection process](https://www.federalregister.gov/documents/2025/12/29/2025-23853/weighted-selection-process-for-registrants-and-petitioners-seeking-to-file-cap-subject-h-1b) for the H-1B cap lottery. Based on this data, they estimate the [probability](https://www.federalregister.gov/d/2025-23853/page-60948) of selection in the lottery by wage level (roughly 15%, 30%, 46%, and 61%).
 
 But these numbers aggregate all registrants by wage level, regardless of their degree level. In reality, registrants with advanced degrees have a higher chance of success than those with bachelor’s degrees because of the two-stage selection process. 
 
