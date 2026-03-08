@@ -22,7 +22,7 @@ Based on USCIS’ estimate of 370,000 registrants, and using their estimates of 
 
 <br>
 
-|Wage Level  - |	Regular Cap	-  | Advanced Degree - |
+|Wage Level  --- |	Regular Cap	---  | Advanced Degree --- |
 |---|:---:|:---:|
 |Level I	| 14.48%	| 23.51% |
 |Level II	| 26.86%	| 41.50% |
