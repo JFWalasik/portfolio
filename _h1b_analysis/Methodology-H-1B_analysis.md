@@ -14,4 +14,4 @@ Unlike USCIS’ analysis and the cap total (85,000), I used 120,000 as the numbe
 
 Using a higher initial estimate of registrations (370,000) in the initial scenario shifts the probabilities closer toward USCIS’ estimate, and employing several scenarios provides a range of estimates, while reflecting the likely reality of more than 85,000 selections needed to achieve that number of approvals.
 
-To view the analyses in spreadsheet form, see this Google drive. It includes the analyses across four scenarios, a walkthrough, and the distributions among wage level and degree pool.  
+To view the analyses in spreadsheet form, see this Google [drive](https://docs.google.com/spreadsheets/d/19RvlvrqS0_MqH0AUib_RHIwuh67Eecjs/edit?usp=sharing&ouid=114406606957833871318&rtpof=true&sd=true). It includes the analyses across four scenarios, a walkthrough, and the distributions among wage level and degree pool.  
